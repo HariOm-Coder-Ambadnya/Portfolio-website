@@ -207,7 +207,7 @@ export default function Home() {
                                 href="/contact"
                                 className="px-10 py-5 bg-transparent border border-gray-200 dark:border-zinc-800 text-gray-900 dark:text-zinc-100 rounded-full hover:bg-white dark:hover:bg-zinc-900 transition-all duration-500"
                             >
-                                Let's Connect
+                                Let&apos;s Connect
                             </Link>
                         </motion.div>
 
@@ -466,10 +466,10 @@ export default function Home() {
                         transition={{ duration: 1 }}
                     >
                         <h2 className="text-[15vw] md:text-[10vw] font-serif font-light text-gray-900 dark:text-zinc-100 mb-12 tracking-tighter leading-[0.8]">
-                            Let's Build.
+                            Let&apos;s Build.
                         </h2>
                         <p className="text-xl text-gray-500 dark:text-zinc-500 mb-16 max-w-xl mx-auto font-light">
-                            Currently available for new projects or agency partnerships. Reach out and let's discuss your vision.
+                            Currently available for new projects or agency partnerships. Reach out and let&apos;s discuss your vision.
                         </p>
                         <Link
                             href="/contact"

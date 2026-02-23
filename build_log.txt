@@ -1,0 +1,39 @@
+
+> portfolio@0.1.0 build
+> next build
+
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\rishi\package-lock.json as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * C:\Users\rishi\Desktop\Portfolio\package-lock.json
+
+   ▲ Next.js 15.5.12
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 9.5s
+   Linting and checking validity of types ...
+
+Failed to compile.
+
+./app/contact/page.tsx
+105:32  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+
+./app/page.tsx
+6:53  Warning: 'Palette' is defined but never used.  @typescript-eslint/no-unused-vars
+97:11  Warning: 'bgScale' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+100:11  Warning: 'aboutInView' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+101:11  Warning: 'experienceInView' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+102:11  Warning: 'skillsInView' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+103:11  Warning: 'projectsInView' is assigned a value but never used.  @typescript-eslint/no-unused-vars
+210:36  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+425:41  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+469:32  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+472:107  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  react/no-unescaped-entities
+
+./app/projects/page.tsx
+176:37  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules
